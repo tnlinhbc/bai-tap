@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url(./img/loic_ex5zww.jpg);">
+    <!-- js -->
+    <script src="main.js"></script>
+    <!-- js -->
+    <div class="dangKy">
+        <form action="#" name="frmDangKy">
+            <h1>ĐĂNG KÝ KHOÁ HỌC ONLINE</h1>
+            <div class="hoTen">
+                <label for="HoTen">Họ tên</label>
+                <input type="text" name="HoTen" placeholder="Vui lòng nhập đầy đủ họ tên">
+            </div>
+            <div class="email">
+                <label for="email">Địa chỉ email</label>
+                <input type="email" name="email" placeholder="Nhập email">
+            </div>
+            <div class="tel">
+                <label for="sdt">Số điện thoại</label>
+                <input type="tel" name="sdt" placeholder="Nhập số điện thoại" minlength="10">
+            </div>
+            <div class="thongTin">
+                <label for="chonNuoc">Chọn thông tin</label>
+                <select name="chonNuoc" id="">
+                    <option value="chonNuoc" selected>Chọn nước</option>
+                    <option value="Việt Nam">Việt Nam</option>
+                    <option value="Nhật Bản">Nhật Bản</option>
+                    <option value="Anh">Anh</option>
+                </select>
+                <select name="chonKhoahoc" id="">
+                    <option value="chonKhoahoc" selected>Chọn khoá học</option>
+                    <option value="Cơ bản">Cơ bản</option>a
+                    <option value="Nâng cao">Nâng cao</option>
+                </select>
+            </div>
+            <div class="adress">
+                <table border="0" cellspacing="0">
+                    <tr>
+                        <td><label for="diaChi">Địa chỉ</label></td>
+                        <td><textarea name="diaChi" id="" cols="51" rows="10" placeholder="Nhập địa chỉ"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="button">
+                <input type="button" value="Gửi" name="gui" onclick="kiemTra()"><label for="gui">Vui lòng điền đầy đủ
+                    thông tin!</label>
+                <br><input type="button" value="Huỷ" onclick="Huy()">
+            </div>
+        </form>
+    </div>
+    <div id="hienThongTin"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.447);
+    width: 32%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.dangKy h1 {
+    text-align: center;
+    color: red;
+    margin-bottom: 1em;
+}
+
+input,
+select,
+textarea {
+    background-color: rgba(255, 255, 255, 0.447);
+}
+
+input,
+textarea,
+select {
+    border: 0;
+}
+
+.email input {
+    width: 75%;
+    margin-left: 1.3em;
+}
+
+.hoTen input {
+    width: 75%;
+    margin-left: 4.5em;
+}
+
+.tel input {
+    width: 75%;
+    margin-left: 1.1em;
+}
+
+input,
+select {
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0.3em;
+}
+
+.adress textarea {
+    margin-left: 4.5em;
+    border-radius: 5px;
+}
+
+.button input {
+    width: 20%;
+    font-weight: bold;
+    color: black;
+    background-color: silver;
+}
+
+.button input:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+.button label {
+    margin-left: 1.1em;
+}
+
+input::placeholder {
+    color: rgb(62, 61, 61);
+    font-weight: bold;
+}
+
+select {
+    color: rgb(62, 61, 61);
+    font-weight: bold;
+}
+
+textarea::placeholder {
+    color: rgb(62, 61, 61);
+    font-weight: bold;
+}
+
+#hienThongTin {
+    color: white;
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, 0.447);
+    width: 32%;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#hienThongTin p {
+    margin-left: 1em;
+    margin-bottom: 0.3em;
+}
+
+#hienThongTin h1 {
+    text-align: center;
+    color: red;
+}
+
+#hienThongTin p:last-child {
+    padding-bottom: 1em;
+}
